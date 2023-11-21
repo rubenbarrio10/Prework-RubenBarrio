@@ -49,9 +49,11 @@ condicion1 <- TRUE
 condicion2 <- TRUE
 
 ambas_condiciones_verdaderas <- condicion1 & condicion2
+print(ambas_condiciones_verdaderas)
 
 #Ejercicio 10: Utilizar Operador Lógico
 #Enunciado: Define una variable lógica, verdadero , con valor TRUE . Comprueba que su valor NO sea verdadero.
 
 verdadero <- TRUE
 no_es_verdadero <- !verdadero
+print(no_es_verdadero)
